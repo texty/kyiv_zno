@@ -185,6 +185,9 @@ p {
 @font-face {
   font-family: "OpenSans-Light";
   src: url("../fonts/open-sans-light.woff") format("woff"); }
+.svg-container {
+  text-align: center; }
+
 body {
   height: 100vh;
   margin-top: 0;
