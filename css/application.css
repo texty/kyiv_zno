@@ -327,6 +327,9 @@ ul.breadcrumb {
   ul.breadcrumb li.active a {
     color: #faa619; }
 
+.tab-container {
+  background: #505050; }
+
 @media (max-width: 991px) {
   .header-container img {
     display: none; } }
