@@ -204,16 +204,12 @@ h2 span {
   display: inline-block;
 }
 
-
-
-
 .breadcrumb>li>a {
   text-decoration: underline;
 }
 
 .breadcrumb>li+li:before {
   padding: 10px;
-
 }
 
 ul.breadcrumb {
@@ -224,16 +220,16 @@ ul.breadcrumb {
   padding: 0;
 
   font-size: 1.5em;
-  color: $c_grey;
+  color: white;
 
   li {
     padding-bottom: 20px;
-
+    padding-top: 20px;
   }
 
   li:focus, li:hover {
     a {
-      color: $c_grey;
+      color: white;
     }
   }
 

@@ -319,11 +319,12 @@ ul.breadcrumb {
   margin-bottom: 0;
   padding: 0;
   font-size: 1.5em;
-  color: #58595b; }
+  color: white; }
   ul.breadcrumb li {
-    padding-bottom: 20px; }
+    padding-bottom: 20px;
+    padding-top: 20px; }
   ul.breadcrumb li:focus a, ul.breadcrumb li:hover a {
-    color: #58595b; }
+    color: white; }
   ul.breadcrumb li.active a {
     color: #faa619; }
 
