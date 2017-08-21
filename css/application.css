@@ -321,8 +321,8 @@ ul.breadcrumb {
   font-size: 1.5em;
   color: white; }
   ul.breadcrumb li {
-    padding-bottom: 20px;
-    padding-top: 20px; }
+    padding-bottom: 40px;
+    padding-top: 40px; }
   ul.breadcrumb li:focus a, ul.breadcrumb li:hover a {
     color: white; }
   ul.breadcrumb li.active a {
