@@ -327,8 +327,21 @@ ul.breadcrumb {
     padding-top: 40px; }
   ul.breadcrumb li:focus a, ul.breadcrumb li:hover a {
     color: white; }
-  ul.breadcrumb li.active a {
-    color: #faa619; }
+
+  ul.breadcrumb li.active:nth-child(1) a {
+    color: #82ff00; }
+
+  ul.breadcrumb li.active:nth-child(2) a {
+    color: #ff63ff; }
+
+  ul.breadcrumb li.active:nth-child(3) a {
+    color: #ffff33; }
+
+  ul.breadcrumb li.active:nth-child(4) a {
+    color: #ffab00; }
+
+  ul.breadcrumb li.active:nth-child(5) a {
+    color: #45ffff; }
 
 .tab-container {
   background: #505050; }
