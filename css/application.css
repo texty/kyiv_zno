@@ -5,8 +5,10 @@ html {
 body {
   font-family: Open Sans, sans-serif;
   font-size: 100%;
-  color: #383e47;
+  color: white;
+  /*color: #383e47;*/
   width: 100%;
+  background-color: #505050;
   /*footer height plus padding*/
   margin-bottom: 200px; }
 
@@ -191,7 +193,7 @@ p {
 body {
   height: 100vh;
   margin-top: 0;
-  color: #383e47; }
+  color: white; }
 
 p {
   font-size: 1.6em; }
