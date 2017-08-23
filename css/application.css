@@ -5,10 +5,8 @@ html {
 body {
   font-family: Open Sans, sans-serif;
   font-size: 100%;
-  color: white;
-  /*color: #383e47;*/
+  color: #383e47;
   width: 100%;
-  background-color: #505050;
   /*footer height plus padding*/
   margin-bottom: 200px; }
 
@@ -193,10 +191,27 @@ p {
 body {
   height: 100vh;
   margin-top: 0;
-  color: white; }
+  color: white;
+  background-color: #505050; }
 
 p {
+  color: white;
   font-size: 1.6em; }
+
+ul.breadcrumb li.active:nth-child(1) a {
+  color: #82ff00; }
+
+ul.breadcrumb li.active:nth-child(2) a {
+  color: #ff63ff; }
+
+ul.breadcrumb li.active:nth-child(3) a {
+  color: #ffff33; }
+
+ul.breadcrumb li.active:nth-child(4) a {
+  color: #ffab00; }
+
+ul.breadcrumb li.active:nth-child(5) a {
+  color: #45ffff; }
 
 .quote {
   margin-top: 1em;
@@ -309,40 +324,53 @@ h2 span {
   border-bottom: 1px dashed;
   display: inline-block; }
 
-.breadcrumb > li > a {
-  text-decoration: underline; }
+@media (min-width: 750px) {
+  .breadcrumb > li > a {
+    text-decoration: underline; }
 
-.breadcrumb > li + li:before {
-  padding: 10px; }
+  .breadcrumb > li + li:before {
+    padding: 10px; }
 
-ul.breadcrumb {
-  background: none;
-  margin-left: 0;
-  margin-bottom: 0;
-  padding: 0;
-  font-size: 1.5em;
-  color: white; }
-  ul.breadcrumb li {
-    padding-bottom: 40px;
-    padding-top: 40px; }
-  ul.breadcrumb li:focus a, ul.breadcrumb li:hover a {
+  ul.breadcrumb {
+    background: none;
+    margin-left: 0;
+    margin-bottom: 0;
+    padding: 0;
+    font-size: 1.5em;
     color: white; }
+    ul.breadcrumb li {
+      padding-bottom: 40px;
+      padding-top: 40px; }
+    ul.breadcrumb li:focus a, ul.breadcrumb li:hover a {
+      color: white; }
+    ul.breadcrumb li.active a {
+      color: #faa619; } }
+@media (max-width: 749px) {
+  .breadcrumb > li {
+    display: block;
+    text-align: center; }
 
-  ul.breadcrumb li.active:nth-child(1) a {
-    color: #82ff00; }
+  .breadcrumb > li > a {
+    text-decoration: underline; }
 
-  ul.breadcrumb li.active:nth-child(2) a {
-    color: #ff63ff; }
+  .breadcrumb > li + li:before {
+    padding: 10px;
+    content: none; }
 
-  ul.breadcrumb li.active:nth-child(3) a {
-    color: #ffff33; }
-
-  ul.breadcrumb li.active:nth-child(4) a {
-    color: #ffab00; }
-
-  ul.breadcrumb li.active:nth-child(5) a {
-    color: #45ffff; }
-
+  ul.breadcrumb {
+    background: none;
+    margin-left: 0;
+    margin-bottom: 0;
+    padding: 0;
+    font-size: 1.5em;
+    color: white; }
+    ul.breadcrumb li {
+      padding-bottom: 5px;
+      padding-top: 10px; }
+    ul.breadcrumb li:focus a, ul.breadcrumb li:hover a {
+      color: white; }
+    ul.breadcrumb li.active a {
+      color: #faa619; } }
 .tab-container {
   background: #505050; }
 
